@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "عون — التواصل الطبي"
+description = "واجهة عربية RTL تساعد الصم وضعاف السمع على اختيار الحالة والإجابة عن أسئلة أعراض بسيطة وإنشاء ملخص واضح لعرضه على الطبيب."
+version = "1.0.0"
+id = "artifacts/aoun-medical"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18090
+
+[services.development]
+run = "pnpm --filter @workspace/aoun-medical run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/aoun-medical", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/aoun-medical/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18090"
+BASE_PATH = "/"
