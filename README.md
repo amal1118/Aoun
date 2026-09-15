@@ -1,4 +1,4 @@
-# Ishara | إشارة
+# Aoun | عون
 
 ### 👥 Group
 
@@ -26,7 +26,7 @@
 
 [SDAIA Academy on GitHub](https://github.com/SDAIAAcademy)
 
-# Ishara | إشارة
+# Aoun | عون
 
 > A two-way communication bridge designed to help deaf, hard-of-hearing, and non-speaking people communicate quickly and clearly with hearing people.
 
