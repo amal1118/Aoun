@@ -1,4 +1,4 @@
-# Aoun | عون
+# عون | Awn
 
 ### 👥 Group
 
@@ -9,7 +9,7 @@
 1. Shahad Khalid
 2. Amal Al-Zahrani
 3. Bashayer Al-Sheibani
-4.Asayil Al-qahtani
+4. Asayel Mesfer
 5. Abdulaziz Al-Shahrani
 6. Raghad Al-Otaibi
 7. Raghad Al-Anazi
@@ -26,47 +26,66 @@
 
 [SDAIA Academy on GitHub](https://github.com/SDAIAAcademy)
 
-# Aoun | عون
+# Awn | عون
 
-> A two-way communication bridge designed to help deaf, hard-of-hearing, and non-speaking people communicate quickly and clearly with hearing people.
+> An emergency support application designed to help deaf and hard-of-hearing people communicate their health condition and needs clearly and quickly to medical specialists.
 
 ## 📌 Project Description
 
-**Ishara** is a web application that makes communication easier for deaf, hard-of-hearing, and non-speaking people, especially during emergencies and critical situations.
+**Awn** is a web application that helps deaf and hard-of-hearing people during emergency situations by allowing them to identify their emergency condition and answer simple questions about it.
 
-Users can communicate by selecting **icons, emojis, predefined options, or text**. The application converts their selections into a clear message that can be displayed or spoken aloud.
-
-Hearing people can respond using **voice or text**, with speech converted into large, readable text for the deaf or hard-of-hearing user.
+Based on the user's answers, the application generates a clear **emergency summary** containing the important information about the patient's condition, which can be shared with a doctor to help explain the situation more quickly.
 
 ## 🚨 Key Features
 
-- 🆘 **Emergency Mode:** A quick, simplified interface for critical situations.
-- 🧩 **Icon-Based Communication:** Large and accessible icons for fast communication.
-- 📝 **Text Input:** Allows users to write custom messages.
-- 🎤 **Speech-to-Text:** Converts the hearing person's speech into readable text.
-- 🔊 **Text-to-Speech:** Reads the generated message aloud.
-- 💬 **Two-Way Communication:** Allows both users to communicate through the same device.
-- 📋 **Emergency Summary:** Generates a clear summary of the user's situation based on their selections.
+- 🆘 **Emergency Selection:** Allows the user to choose their emergency condition from the available options.
+- 📝 **Emergency Questions:** Provides simple questions and options to identify important details about the emergency.
+- 📋 **Emergency Summary:** Generates a clear summary containing the important information about the patient's condition.
+- 📤 **Summary Sharing:** Allows the user to share the emergency summary with a doctor.
 
 ## 🔄 How It Works
 
-1. Choose **"I Need Help"** or **"I Am Talking to a Deaf Person"**.
-2. Select icons/options or enter a message.
-3. In Emergency Mode, answer a few quick questions about the situation.
-4. Ishara generates a clear message from the selected information.
-5. The message can be displayed or played aloud.
-6. The hearing person can respond using voice or text.
+1. The user opens the **Awn** application.
+2. The user selects the emergency condition they are experiencing.
+3. The user answers simple questions related to the selected condition.
+4. Awn generates an **emergency summary** based on the user's answers and confirmed symptoms.
+5. The user can share the summary with a doctor to explain their condition more quickly.
 
 ## ♿ Accessibility
 
-Ishara is designed with accessibility in mind, including:
+Awn is designed to make emergency communication easier for deaf and hard-of-hearing users, including:
 
-- Large touch-friendly buttons
-- High contrast
-- Clear icons and simple language
-- Large readable text
-- Minimal interaction during emergencies
-- Responsive design
+- Simple questions and clear options
+- Easy-to-understand interface
+- Clear information about the emergency
+- Quick interaction during emergency situations
+- Clear emergency summary for medical specialists
+
+## 🧪 Demo Data
+
+The application uses experimental data for testing, including:
+
+- Names of the emergency conditions available in the application
+- Illustrative images for emergency conditions
+- Questions and options for each emergency condition
+- Brief information and guidance for creating the emergency summary
+- Experimental data for testing summary sharing
+
+## 🚫 Out of Scope
+
+The current version does not include:
+
+- Direct integration with hospitals or ambulances
+- Medical diagnosis
+- All possible emergency conditions
+- User registration and login
+- User accounts
+
+## 🎯 Success Scenario
+
+A user enters the **Awn** application and selects the emergency condition they are experiencing. The user then answers the questions related to the condition.
+
+After that, the application generates an emergency summary containing the symptoms confirmed by the patient. The user can then share the summary with a doctor, helping communicate the patient's condition more quickly and clearly.
 
 ## 🛠️ How to Run
 
@@ -80,5 +99,5 @@ Ishara is designed with accessibility in mind, including:
 
 ```bash
 git clone <REPOSITORY-URL>
-cd Ishara
+cd Awn
 npm install
