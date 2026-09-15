@@ -70,21 +70,6 @@ The application uses experimental data for testing, including:
 - Brief information and guidance for creating the emergency summary
 - Experimental data for testing summary sharing
 
-## 🚫 Out of Scope
-
-The current version does not include:
-
-- Direct integration with hospitals or ambulances
-- Medical diagnosis
-- All possible emergency conditions
-- User registration and login
-- User accounts
-
-## 🎯 Success Scenario
-
-A user enters the **Awn** application and selects the emergency condition they are experiencing. The user then answers the questions related to the condition.
-
-After that, the application generates an emergency summary containing the symptoms confirmed by the patient. The user can then share the summary with a doctor, helping communicate the patient's condition more quickly and clearly.
 
 ## 🛠️ How to Run
 
