@@ -1,5 +1,4 @@
-# عون | Awn
-
+# Aoun | عون 
 ### 👥 Group
 
 **Group 5**
@@ -9,7 +8,7 @@
 1. Shahad Khalid
 2. Amal Al-Zahrani
 3. Bashayer Al-Sheibani
-4. Asayel Mesfer
+4. Asayil Al-qahtani
 5. Abdulaziz Al-Shahrani
 6. Raghad Al-Otaibi
 7. Raghad Al-Anazi
@@ -26,7 +25,7 @@
 
 [SDAIA Academy on GitHub](https://github.com/SDAIAAcademy)
 
-# Awn | عون
+# Aoun | عون 
 
 > An emergency support application designed to help deaf and hard-of-hearing people communicate their health condition and needs clearly and quickly to medical specialists.
 
